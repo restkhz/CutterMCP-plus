@@ -4,7 +4,7 @@
 
 Automated Reverse Engineering via LLMs
 
-**Cutter is a powerful, user-friendly, and completely free reverse engineering tool.**
+**[Cutter](https://cutter.re/) is a powerful, user-friendly, and completely free reverse engineering tool.**
 
 **Now, combined with modern Large Language Models (LLMs), they can do even more.**
 
@@ -69,6 +69,8 @@ The analysis results from `claude-opus-4` are completely correct, and the functi
 `read_bytes()`
 
 ## How to use?
+
+First, make sure that cutter and python3 are installed.
 
 ### Dependencies:
 
