@@ -87,7 +87,7 @@ This is about the `mcp_plugin.py`. It will serve as a plugin of cutter and start
 1. Run Cutter
 2. Go to **Edit -> Preferences -> Plugins**
 3. You can find the plugin directory location in the dialog.
-4. Copy `mcp_plugin.py` to the `<cutter_plugins>/python` folder
+4. Copy `mcp_plugin.py` to the `<cutter_plugins>/python` folder(not the `mcp_server.py`)
 5. Restart your cutter
 
 ### MCP Host:
