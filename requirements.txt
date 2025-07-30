@@ -1,0 +1,7 @@
+fastapi==0.116.1
+mcp==1.12.2
+pydantic==2.11.7
+PySide6==6.9.1
+requests==2.32.4
+starlette==0.47.2
+uvicorn==0.35.0
