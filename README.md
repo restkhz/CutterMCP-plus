@@ -119,11 +119,10 @@ Models such as `gemini-2.5-flash` and `gpt-4.1-mini` their performance may not b
 
 ## Is this safe?
 
-I can't guarantee that. For example, the string in the data section may cause injection.
+For example, When analyzing malware the string in the data section may cause injection.
+So, do not automatically agree to all execute commands.
 
 Also, **be aware of the spending on tokens.**
-
-I make no guarantees on safety problems.
 
 ## TODO
 
