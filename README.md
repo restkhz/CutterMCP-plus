@@ -10,7 +10,9 @@ Automated Reverse Engineering via LLMs
 
 > 🤖 “Give AI a sharp cutter!”
 
-## Demo
+## Demos
+
+### Demo 1: Hackthebox [Behind the Scenes](https://app.hackthebox.com/challenges/Behind%2520the%2520Scenes) (Easy level illeagal instruction bypass, Level: very easy)
 
 As demonstrated in the video below, this plugin enables Cutter to automatically solve simple reverse engineering CTF challenges(From hack the box).
 
@@ -19,16 +21,26 @@ The LLM can notice anti-analysis techniques such as illegal instruction `ud2`. I
 `claude-sonnet-3.7` noticed this and tried to read the assembly directly to get around it. The entire process took about a minute to find the correct answer, **without human intervention.**
 
 
-
-
 https://github.com/user-attachments/assets/bc86df16-93e1-473f-8eb4-3161a7b4a48e
 
 
-
-
-
-
 (The video has not been accelerated.)
+
+### Demo 2: Hackthebox [Virtually Mad](https://app.hackthebox.com/challenges/Virtually%2520Mad) (VM analysis. Level: Medium)
+
+This is a VM analysis challenge. You need to reverse the opcode and figure out the rules. There are functions that are called in key parts via function pointers, so these are not listed by cutter.
+
+So, the more intelligent `claude-opus-4' was used.
+
+With prompt: Let's do a CTF reverse analysis challenge. virtually.mad. this is an ELF file. Cutter MCP is ready for you. You can call cutter to help you complete the challenge.
+
+With no intervention claude-opus-4 completed the challenge using cutter.
+
+<img width="1325" height="878" alt="image" src="https://github.com/user-attachments/assets/e78db5d1-0d3c-4685-8c9e-501f9ef2a416" />
+
+
+
+### Demo 3: [ShellcodeEncrypt2DLL](https://github.com/restkhz/ShellcodeEncrypt2DLL) (Malware sample, VirusTotal 0/72)
 
 It can also assist in malware analysis workflows, helping you accelerate tasks or extract key information.
 
